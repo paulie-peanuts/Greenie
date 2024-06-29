@@ -20,3 +20,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+#admin-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: #DA8034;
+  color: white;
+  font-size: 0.9rem;
+  height: 30px;
+  padding: 6px 30px;
+}

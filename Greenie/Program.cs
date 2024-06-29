@@ -1,11 +1,16 @@
+using Greenie;
 using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = "server=localhost;user=codingevents;password=codingevents123;database=greenie";
+var serverVersion = new MySqlServerVersion(new Version(8, 0, 36));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<ChallengeDbContext>(dbContextOptions =>
+    dbContextOptions.UseMySql(connectionString, serverVersion)
+);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

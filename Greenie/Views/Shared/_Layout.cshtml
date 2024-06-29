@@ -29,12 +29,20 @@
                 </div>
             </div>
         </nav>
-    </header>
+    @* </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div>
+    </div> *@
+
+        <main role="main">
+        @if (ViewData["Controller"] != null && ViewBag.Links != null)
+        {
+            <partial name="/Views/Shared/_LocalNavPartial.cshtml" />
+        }
+        @RenderBody()
+    </main>
 
     <footer class="border-top footer text-muted">
         <div class="container">

@@ -1,0 +1,35 @@
+@using Greenie
+@model List<Challenge>
+
+@{
+    ViewData["Title"] = "DELETE CHALLENGES";
+    ViewData["Controller"] = "Challenges";
+    ViewBag.Links = new Dictionary<string, string> 
+        {
+            { "Index", "View All Challenges"},
+            { "Add", "Add a New Challenge"}
+        };
+}
+
+<div>
+    <h3>Delete Challenges</h3>
+    @if (Model?.Count > 0)
+    {
+        <form method="POST">
+            <div>
+                @foreach (Challenge challenge in Model)
+                {
+                    <label>
+                        <input type="checkbox" name="challengeIds" value="@challenge.Id" />
+                        <span>@challenge</span>
+                    </label>
+                }
+            </div>
+            <button type="submit">Delete Selected Challenges</button>
+        </form>
+    }
+    else
+    {
+        <em>No challenges to display.</em>
+    }
+</div>

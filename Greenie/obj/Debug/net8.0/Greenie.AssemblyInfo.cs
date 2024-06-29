@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Greenie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f152fae87c5f59a6c4ba30fe746c386c50afc734")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02d9476c968bd0f2ae26d15330e45819a7add108")]
 [assembly: System.Reflection.AssemblyProductAttribute("Greenie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Greenie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
