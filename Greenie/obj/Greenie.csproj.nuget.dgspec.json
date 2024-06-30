@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/paulfilipkowski/Desktop/LaunchCode/Greenie/Greenie/Greenie.csproj": {}
+    "/Users/paulfilipkowski/Desktop/LaunchCode/Green2/Greenie/Greenie/Greenie.csproj": {}
   },
   "projects": {
-    "/Users/paulfilipkowski/Desktop/LaunchCode/Greenie/Greenie/Greenie.csproj": {
+    "/Users/paulfilipkowski/Desktop/LaunchCode/Green2/Greenie/Greenie/Greenie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/paulfilipkowski/Desktop/LaunchCode/Greenie/Greenie/Greenie.csproj",
+        "projectUniqueName": "/Users/paulfilipkowski/Desktop/LaunchCode/Green2/Greenie/Greenie/Greenie.csproj",
         "projectName": "Greenie",
-        "projectPath": "/Users/paulfilipkowski/Desktop/LaunchCode/Greenie/Greenie/Greenie.csproj",
+        "projectPath": "/Users/paulfilipkowski/Desktop/LaunchCode/Green2/Greenie/Greenie/Greenie.csproj",
         "packagesPath": "/Users/paulfilipkowski/.nuget/packages/",
-        "outputPath": "/Users/paulfilipkowski/Desktop/LaunchCode/Greenie/Greenie/obj/",
+        "outputPath": "/Users/paulfilipkowski/Desktop/LaunchCode/Green2/Greenie/Greenie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/paulfilipkowski/.nuget/NuGet/NuGet.Config"

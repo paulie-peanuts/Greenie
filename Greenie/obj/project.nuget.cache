@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9LFt99ZtV6w=",
+  "dgSpecHash": "UtXVwlV6J+c=",
   "success": true,
-  "projectFilePath": "/Users/paulfilipkowski/Desktop/LaunchCode/Greenie/Greenie/Greenie.csproj",
+  "projectFilePath": "/Users/paulfilipkowski/Desktop/LaunchCode/Green2/Greenie/Greenie/Greenie.csproj",
   "expectedPackageFiles": [
     "/Users/paulfilipkowski/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/paulfilipkowski/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
